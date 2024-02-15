@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.vscode/ARMA/arma-comingsoon"
+		},
+		{
+			"name": "arma-comingsoon",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "arma-comingsoon"
+	}
+}

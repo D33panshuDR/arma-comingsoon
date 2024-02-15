@@ -1,4 +1,4 @@
-html {
+/* html {
     height: 100%;
 }
 body {
@@ -7,12 +7,12 @@ body {
     display: flex;
     height: 100%;
     justify-content: center;
-    margin: 0;
-}
+    margin-right: 100px;  
+} */
 .glitch {
     animation: glitch-skew 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s infinite;
     font-family: orbitron, sans-serif;
-    font-size: 8rem;
+    font-size: 8vw;
     font-weight: 900;
     line-height: 1;
     position: relative;
@@ -20,6 +20,36 @@ body {
     text-transform: uppercase;
     transform-origin: center top;
 }
+.glitch2     {
+    animation: glitch-skew 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s infinite;
+    font-family: orbitron, sans-serif;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transform-origin: center top;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
 .glitch__main {
     color: #fff;
 }
